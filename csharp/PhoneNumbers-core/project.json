@@ -2,7 +2,8 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "NETStandard.Library": "1.5.0-rc2-24027"
+    "NETStandard.Library": "1.5.0-rc2-24027",
+    "System.Runtime.Serialization.Json": "4.0.2-rc2-24027"
   },
   "buildOptions": {
     "compile": {
@@ -15,7 +16,7 @@
     }
   },
   "frameworks": {
-    "netstandard1.3": {
+    "netstandard1.5": {
     }
   }
 }
